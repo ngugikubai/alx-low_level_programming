@@ -2,7 +2,7 @@
 
 /**
  * main - main function
- * Description -a program that prints the lowercase alphabet in reverse using putchar
+ * Description - prints the lowercase alphabet in reverse using putchar
  * Return: 0
  */
 int main(void)
