@@ -10,13 +10,15 @@
 
 int main(void)
 {
-    char mess[9] = "_putchar";
-    int position;
+    char c[] = "_putchar";
+    int i = 0;
 
-    for (position = 0; position < 8; position++)
+    while (c[i] != '\0')
     {
-        _putchar(mess[position]);
+        _putchar(c[i]);
+        i++;
     }
-    _putchar('\n');
+    _putchar(10);
+
     return (0);
 }
