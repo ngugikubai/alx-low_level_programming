@@ -1,3 +1,3 @@
 **0. strcat**
 
-**A function that concatnates two strings**
+**A function that concatenates two strings**
