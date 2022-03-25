@@ -9,15 +9,13 @@
  * Return: Pointer to @dest
  */
 
-char *_strcat(char *dest, char *src){
- 
+char *_strcat(char *dest, char *src)
+{
 int  i, c = 0;
-
 while (dest[c] != '\0')
 {
 c++;
 }
-
 for (i=0; src[i] != '\0'; i++)
  {
 dest[c] = src[i];
@@ -25,3 +23,4 @@ c++;
 }
 return(dest);
 }
+
